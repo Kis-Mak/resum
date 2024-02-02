@@ -48,7 +48,9 @@ body {
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
-    background: radial-gradient(#f1f1fa, rgba(127, 127, 245, 0.438))
+    background-image: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+    /* background-image: radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153, 202, 251, 0.492) 100.2% ); */
+    /* background: radial-gradient(#f1f1fa, rgba(127, 127, 245, 0.438)) */
 }
 .common p {
 font-style: italic;
