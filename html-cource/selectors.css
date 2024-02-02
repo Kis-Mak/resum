@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.color {
+    color: rgba(0, 0, 255, 0.384);
+}
+.color2 {
+    color: rgba(0, 0, 255, 0.603);
+}
+.color3 {
+    color: rgba(0, 0, 255, 0.815);
+}
+#vk {
+    color: rgba(0, 0, 255, 0.815);
+}
+#vk:hover {
+    color: orange;
+}
+#YouTube {
+    color: red;
+}
+#YouTube:hover {
+    color: orange;
+}
+#Telegram {
+    color: rgba(0, 0, 255, 0.384);
+}
+#Telegram:hover {
+    color: orange;
+}
+#GitHub {
+    color: rgba(241, 85, 58, 1);
+}
+#GitHub:hover {
+    color: orange;
+}
+
+h1 {
+    margin: 2px 0px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    background: radial-gradient(#f1f1fa, rgba(127, 127, 245, 0.438))
+}
+.common p {
+font-style: italic;
+font-weight: 550;
+color: rgb(153, 152, 152);
+margin: 0;
+}
+
+.common p strong {
+    text-decoration: line-through rgba(255, 0, 0, 0.527) 2px;
+    font-weight: 550;
+}
+
+/* #header {
+    color: #B22222;
+} */
+
+a {
+    text-decoration: none;
+    transition: all 2.s;
+}
+
+a:hover {
+    color: orange;
+    font-size: 17px;
+    /* text-decoration: underline; */
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+    background: #f748489a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: inherit;
+    margin-top: 10px;
+}
+.btn:hover {
+    /* background: rgba(223, 96, 128, 0.945); */
+    opacity: .8;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.btn:active {
+    color: blue;
+}
+
+/* #message {
+    font-family: inherit;
+    border-radius: 7px;
+    border: none;
+} */
+
+#message:hover {
+    color: #f748489a;
+}
+
+/* #connection div input {
+    font-family: inherit;
+    border-radius: 7px;
+    padding: 1px 7px;
+    border: 0;
+} */
+
+#connection div input:hover {
+    color: #f748489a;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: radial-gradient(#a5a5e262, rgba(225, 127, 245, 0.247));
+    /* margin-bottom: 30px; */
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0;
+    /* padding: 10px 100px ; */
+    max-width: 750px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.navbar ul li:hover {
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    transition: none;
+    color: black;
+}
+
+/* Кнопка "Поиск..." */
+/* .navbar ul input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+} */

@@ -1,0 +1,34 @@
+.task {
+    padding: 0;
+    list-style: none;
+}
+
+.task li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #fa80723a;
+    padding-bottom: 3px;
+    border-bottom-width: 2px ;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 5px;
+}
+
+#table {
+    width: 100%;
+
+}
+
+#table td {
+    padding-bottom: 10px;
+    /* text-align: center; */
+}
+
+#table td:nth-child(2), #table td:nth-child(3) {
+    color: #86898f;
+}

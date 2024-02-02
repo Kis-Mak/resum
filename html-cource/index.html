@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="selectors.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="lists&tables.css">
+    <script src="try.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Резюме</a></li>
+            <li><a href="css-cource\index.html">Тестовые задания</a></li>
+            <li><a href="#">Будет доступно позже</a></li>
+            <!-- Кнопка поиска в панели навигации -->
+            <!-- <input type="text" placeholder="Поиск...">
+            <button type="submit"><i class="fa fa-search"></i></button> -->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="info">
+            <div>
+                <img src="imgs/Аватарка.jpg" alt="Тут должно быть мое фото" class="avatar">
+            </div>
+            <div class="info-text">
+                <h1>Кисляков Макар</h1>
+                <h2>Инженер-программист</h2> 
+                <div class="common">
+                    <p>Учусь самостоятельно на frontend разработчика</p>
+                    <p> У меня <strong>пока</strong> неплохо получается</p>
+                    <p>Мне стоит заниматься программированием каждый день, а то буду и дальше сидеть в лужу пердеть...</p>
+                </div>
+                <div class="social">
+                    <h3>Мои социальные сети:</h4>
+                    <p>
+                    <a id="vk" href="https://vk.com/kiss_mak" target="_blank"><strong>VK</strong></a> 
+                    <strong>|</strong>
+                    <a id="YouTube" href="https://www.youtube.com/" target="_blank"><strong>YouTube</strong></a>
+                    <strong>|</strong>
+                    <a id="Telegram" href="https://t.me/Kis_Mak" target="_blank"><strong>Telegram</strong></a>
+                    <strong>|</strong>
+                    <a id="GitHub" href="https://github.com/" target="_blank"><strong>GitHub</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr noshade width="75%">
+        <div id="tasks" class="card">
+            <h3>Мои цели:</h3>
+            <ul class="task">
+            <li class="color">Научиться писать скелет сайта используя <a href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank"><strong>HTML</strong></a></li>
+            <li class="color2">Стилизовать свой сайт с использованием <a href="https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank"><strong>CSS</strong></a></li>
+            <li class="color3">Добавить динамики сайту с помощью <a href="https://www.youtube.com/watch?v=fcMcf_4PjfI" target="_blank"><strong>JavaScript</strong></a></li>
+            </ul>
+        </div>
+        <hr noshade width="75%">
+        <div id="hobby" class="card">
+            <h3>Мои хобби:</h3>
+            <ol class="list">
+                <li>Покер</li>
+                <li>Путешествия</li>
+                <li>Программирование</li>
+                <li>Не очень активный отдых</li>
+            </ol>
+        </div>
+        <hr noshade width="75%">
+        <div id="work" class="card">
+            <h3>Опыт работы:</h3>
+            <table id="table">
+                <!-- <thead>
+                    <tr id="header">
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>РенПроектСтрой</td>
+                        <td>Техник</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>НОЦ 2Т</td>
+                        <td>Техник</td>
+                        <td>2020-2022</td>
+                    </tr>
+                    <tr>
+                        <td>НОЦ 2Т</td>
+                        <td>Инженер-программист</td>
+                        <td>2022-сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr noshade width="75%">
+        <!-- <div id="git" class="card">
+            <h3>Мой Git:</h3>
+            <p>
+                <a id="GitHub" href="https://github.com/" target="_blank"><strong>GitHub</strong></a>
+            </p>
+        </div>
+        <hr noshade width="75%"> -->
+        <form action="/" id="connection" class="card"> 
+            <h3>Связаться со мной:</h3>
+            <div class="connection-row">
+                <div class="connection-group">
+                    <label for="Name">Ваше имя</label>
+                    <input type="Name" id="Name" placeholder="Введите имя" >
+                </div>
+                <div class="connection-group">
+                    <label for="email">Ваш email</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="connection-group">
+                <label for="message">Ваше сообщение</label>
+                <textarea id="message" cols="33" rows="4" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button class="btn">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>

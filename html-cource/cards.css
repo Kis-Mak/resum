@@ -1,0 +1,112 @@
+.card {
+    /* margin-bottom: 1px; */
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    /* padding-left: 2px; */
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.avatar {
+    width: 275px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+    /* display: block; */
+    /* margin: 0px 5px; */
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+    margin-top: 20px; */
+}
+
+#tasks {
+border: 1px solid #f1c2f160;
+background-color:  #f1c2f160;
+}
+
+.social h3 {
+    text-decoration: none ;
+    margin: 10px 0 0 0;
+}
+
+.social p {
+    margin: 10px 0 0 0;
+}
+
+#hobby {
+border: 1px solid #00bfff1a;
+background-color: #00bfff1a;
+}
+
+/* #git {
+    border: 1px solid rgba(174, 138, 182, 0.103);
+    background-color: rgba(174, 138, 182, 0.103);
+} */
+
+#work {
+border: 1px solid rgba(234, 255, 47, 0.11);
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+/* #connection {
+    border: 1px solid rgba(238, 77, 77, 0.445);
+    background-color: rgba(238, 77, 77, 0.445) ;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}  */
+
+#connection h3 {
+    text-align: center;
+}
+
+.connection-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.connection-row .connection-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.connection-row .connection-group:last-child {
+    margin-right: 0;
+}
+
+.connection-group label {
+    display: block;
+    font-size: 14px;
+    color: #4d4f57;
+}
+
+.connection-group input, 
+.connection-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
