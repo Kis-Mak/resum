@@ -26,8 +26,14 @@
             <button class="btn" type="button" onclick="myFunction()">Нажми меня</button>
         </div>
         <div>
-            <h2>Давайте посмотрим, что еще можно сделать пр помощи JS</h2>
-            <p></p>
+            <h2>Давайте посмотрим, что еще можно сделать при помощи JS</h2>
+            <p id="text"></p>
+            <button class="btn" type="button" onclick="showText()">Попробуй нажать эту кнопку</button>
+            <script>
+                function showText() {
+                    document.getElementById('text').innerHTML = 'Проверим, будет ли отображаться этот текст, если я напишу его не в подключаемом js файле, а прямо в body html файла.';
+}
+            </script>
         </div>
     </div>
 </body>
