@@ -104,6 +104,27 @@ a:active {
     color: blue;
 }
 
+.red-btn {
+    background: #ff0808ef;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: inherit;
+    margin-top: 10px;
+}
+.red-btn:hover {
+    /* background: rgba(223, 96, 128, 0.945); */
+    opacity: .8;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.red-btn:active {
+    color: blue;
+}
+
 /* #message {
     font-family: inherit;
     border-radius: 7px;
