@@ -125,6 +125,10 @@ a:active {
     color: blue;
 }
 
+#red-btn {
+    color: red;
+}
+
 /* #message {
     font-family: inherit;
     border-radius: 7px;
