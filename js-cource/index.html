@@ -25,6 +25,7 @@
             <p id="demo">Этот текст должен будет поменяться, если нажать на кнопку ниже</p>
             <button class="btn" type="button" onclick="myFunction()">Нажми меня</button>
         </div>
+        <hr noshade>
         <div class="card">
             <h2>Давайте посмотрим, что еще можно сделать при помощи JS</h2>
             <p id="text"></p>
@@ -35,15 +36,35 @@
                 }
             </script>
         </div>
+        <hr noshade>
         <div class="card">
             <h2>Попробуем вывести этой кнопкой время</h2>
             <p id="time"></p>
             <button class="btn type="button" onclick="showTime()">Отобразить дату</button>
         </div>
+        <hr noshade>
         <div class="card">
             <script>document.write('Не забудь улыбнуться, перед тем как нажимать! ------>')</script>
             <button class="btn" type="button" onclick="MyAlert()">Вылетит птичка</button>
         </div>
+        <hr noshade>
+        <div class="card">
+            <h2>Тут будет выводиться переменная result</h2>
+            <script>document.write($result)</script>
+        </div>
+        <hr noshade>
+        <div class="card">
+            <h2>Вычислим что-нибудь</h2>
+            <p id="sum"></p>
+            <script>
+                var x, y;
+                x = 12;
+                y = 7;
+                z = x * y;
+                document.getElementById('sum').innerHTML = z;
+            </script>
+        </div>
+        <hr noshade>
         <div class="card">
             <h2 id="red-btn">Красная кнопка! Не нажимай!</h2>
             <button class="red-btn" type="button" onclick="document.write('Зачем ты все сломал? Тебе же сказали не нажимать!')">НЕ ТРОГАЙ!</button>
