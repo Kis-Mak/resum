@@ -66,6 +66,20 @@
         </div>
         <hr noshade>
         <div class="card">
+            <h2>JS Variables (Переменные в JS)</h2>
+            <p id="car"></p>
+            <p id="carT"></p>
+            <script>
+                var carModelT = 'Tugella', carPriceT = '3,5 м.р';
+                var carName, carPrice, carModel;
+                carName = 'Geely',
+                carModel = 'Coolray',
+                carPrice = '2,7 м.р';
+                document.getElementById('car').innerHTML = carName + ' ' + carModel + ' - ' + carPrice;
+                document.getElementById('carT').innerHTML = carName + ' ' + carModelT + ' - ' + carPriceT;
+            </script>
+        </div>
+        <div class="card">
             <h2 id="red-btn">Красная кнопка! Не нажимай!</h2>
             <button class="red-btn" type="button" onclick="document.write('Зачем ты все сломал? Тебе же сказали не нажимать!')">НЕ ТРОГАЙ!</button>
         </div>
