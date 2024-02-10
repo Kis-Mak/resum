@@ -79,6 +79,45 @@
                 document.getElementById('carT').innerHTML = carName + ' ' + carModelT + ' - ' + carPriceT;
             </script>
         </div>
+        <hr noshade>
+        <div class="card">
+            <h2>Квадрат</h2>
+            <button class="btn" type="button" onclick="squareAlert()">Укажите число</button>
+            <p id="Square">Нажмите на кнопку выше, для выбора числа, которое следует возвести в квадрат</p>
+            <script>
+                var square;
+                // const button = document.querySelector("button");
+                function squareAlert() {
+                let square = prompt ('Какое число следует возвести в квадрат?');
+                document.getElementById("Square").innerHTML = square + ' ' + 'в квадрате' + ' = ' + square**2;
+                }
+            </script>
+        </div>
+        <hr noshade>
+        <div class="card">
+            <h2>Массив данных в переменной (вызванный cars[x])</h2>
+            <p id="cars"></p>
+            <script>
+                var cars = ["Volvo", "BMW", "Geely", "Toyota"]
+                document.getElementById("cars").innerHTML = cars[0] + '<br>' + cars[1] + '<br>' + cars[2] + '<br>' + cars[3];
+            </script>
+            <h2>Объекты js (записанные в { })</h2>
+            <p id="John"></p>
+            <h3>Вычисляем тип переменной (typeof)</h3>
+            <p id="Prof"></p>
+            <script>
+                var person = {
+                    firstName : 'John',
+                    lastName : 'Week',
+                    age : 50,
+                    profession : 'Killer'
+                };
+                document.getElementById("John").innerHTML = 'Name: ' + person.firstName + ' ' + person.lastName + '<br>' + 'Age: ' + 
+                person.age + ' years old' + '<br>' + 'Profession: ' + person.profession;
+                document.getElementById('Prof').innerHTML = 'firstName = ' + typeof person.firstName;
+            </script>
+        </div>
+        <hr noshade>
         <div class="card">
             <h2 id="red-btn">Красная кнопка! Не нажимай!</h2>
             <button class="red-btn" type="button" onclick="document.write('Зачем ты все сломал? Тебе же сказали не нажимать!')">НЕ ТРОГАЙ!</button>
