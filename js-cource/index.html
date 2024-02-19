@@ -7,6 +7,7 @@
     <script src="01_getElementById.js"></script>
     <link rel="stylesheet" href="../html-cource/selectors.css">
     <link rel="stylesheet" href="../html-cource/cards.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
@@ -23,13 +24,13 @@
         <div class="card">
             <h2>Попробуем добавить кнопку</h2>
             <p id="demo">Этот текст должен будет поменяться, если нажать на кнопку ниже</p>
-            <button class="btn" type="button" onclick="myFunction()">Нажми меня</button>
+            <button id="button" class="btn" type="button" onclick="myFunction()">Нажми меня</button>
         </div>
         <hr noshade>
         <div class="card">
             <h2>Давайте посмотрим, что еще можно сделать при помощи JS</h2>
             <p id="text"></p>
-            <button class="btn" type="button" onclick="showText()">Попробуй нажать эту кнопку</button>
+            <button id="button" class="btn" type="button" onclick="showText()">Попробуй нажать эту кнопку</button>
             <script>
                 function showText() {
                     document.getElementById('text').innerHTML = 'Проверим, будет ли отображаться этот текст, если я напишу его не в подключаемом js файле, а прямо в body html файла.';
@@ -40,12 +41,12 @@
         <div class="card">
             <h2>Попробуем вывести этой кнопкой время</h2>
             <p id="time"></p>
-            <button class="btn type="button" onclick="showTime()">Отобразить дату</button>
+            <button id="button" class="btn type="button" onclick="showTime()">Отобразить дату</button>
         </div>
         <hr noshade>
         <div class="card">
             <script>document.write('Не забудь улыбнуться, перед тем как нажимать! ------>')</script>
-            <button class="btn" type="button" onclick="MyAlert()">Вылетит птичка</button>
+            <button id="button" class="btn" type="button" onclick="MyAlert()">Вылетит птичка</button>
         </div>
         <hr noshade>
         <div class="card">
@@ -82,7 +83,7 @@
         <hr noshade>
         <div class="card">
             <h2>Квадрат</h2>
-            <button class="btn" type="button" onclick="squareAlert()">Укажите число</button>
+            <button id="button" class="btn" type="button" onclick="squareAlert()">Укажите число</button>
             <p id="Square">Нажмите на кнопку выше, для выбора числа, которое следует возвести в квадрат</p>
             <script>
                 var square;
@@ -132,7 +133,7 @@
         <hr noshade>
         <div class="card">
             <h2 id="red-btn">Красная кнопка! Не нажимай!</h2>
-            <button class="red-btn" type="button" onclick="document.write('Зачем ты все сломал? Тебе же сказали не нажимать!')">НЕ ТРОГАЙ!</button>
+            <button id="button" class="red-btn" type="button" onclick="document.write('Зачем ты все сломал? Тебе же сказали не нажимать!')">НЕ ТРОГАЙ!</button>
         </div>
     </div>
 </body>
